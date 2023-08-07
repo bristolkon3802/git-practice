@@ -33,6 +33,7 @@ Add your Github username below.
 - [x] 이전 커밋으로 되돌아가 가기
 
         git checkout 5eb5c49c983da7e39c021774cb3ca73d79fc6df3
+<<<<<<< HEAD
 
 - [x] 이전 커밋 취소
 
@@ -49,3 +50,5 @@ Add your Github username below.
         git add .
         git commit -m ""
 
+=======
+>>>>>>> 057523d3ad8c983a5c07397c668dc2ebc30fc1df
