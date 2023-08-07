@@ -57,10 +57,11 @@ Add your Github username below.
 
 - [x] 새로운 브런치 만들기
 
-        git checkout 363741a636b94a35577fff67a45c8055a5581f42 -b new-branch-name
-        git origin new-branch-name
+        git checkout 363741a636b94a35577fff67a45c8055a5581f42
+        git checkout -b new-branch-name
         git checkout main
 
 - [x] 브런치 목록
 
         git branch
+        git push origin branch-name
