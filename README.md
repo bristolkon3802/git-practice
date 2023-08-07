@@ -33,7 +33,6 @@ Add your Github username below.
 - [x] 이전 커밋으로 되돌아가 가기
 
         git checkout 5eb5c49c983da7e39c021774cb3ca73d79fc6df3
-<<<<<<< HEAD
 
 - [x] 이전 커밋 취소
 
@@ -49,6 +48,19 @@ Add your Github username below.
         git reset HEAD^
         git add .
         git commit -m ""
+        git pull origin main --force
 
-=======
->>>>>>> 057523d3ad8c983a5c07397c668dc2ebc30fc1df
+- [x] reset 소프트리셋 - 마지막 커밋 혹은 선택한 커밋에서의 변경사항을 unstage 영역에 두지 않음,
+      작업중 파일이 있을 때 섞이지 않고 싶으면 사용
+
+        git reset HEAD^^ --soft
+
+- [x] 새로운 브런치 만들기
+
+        git checkout 363741a636b94a35577fff67a45c8055a5581f42 -b new-branch-name
+        git origin new-branch-name
+        git checkout main
+
+- [x] 브런치 목록
+
+        git branch
