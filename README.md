@@ -28,4 +28,6 @@ Add your Github username below.
 
 - [x] commit
 
-        git commit -m "msg"
+        git commit -m ""
+
+- [x] 이전 커밋으로 되돌아가 가기
