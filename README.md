@@ -31,3 +31,5 @@ Add your Github username below.
         git commit -m ""
 
 - [x] 이전 커밋으로 되돌아가 가기
+
+        git checkout 5eb5c49c983da7e39c021774cb3ca73d79fc6df3
