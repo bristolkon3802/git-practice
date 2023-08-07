@@ -46,3 +46,5 @@ Add your Github username below.
 - [x] reset 복합리셋 - 마지막 커밋 혹은 선택한 커밋에서의 변경사항을 unstage 영역으로 변경, 변경내용 유지
 
         git reset HEAD^
+        git add .
+        git commit -m ""
