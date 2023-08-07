@@ -10,5 +10,5 @@ Add your Github username below.
 
 ## git
 
-- [] git === pc 변경사항 pull
-  git pull origin main
+- [x] git === pc 변경사항 pull
+      git pull origin main
