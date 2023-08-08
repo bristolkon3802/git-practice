@@ -73,3 +73,23 @@ Add your Github username below.
 
         git add .
         git commit --amend --no-edit
+        git push origin main --force
+
+- [x] 커밋 상태 확인
+
+        git status
+
+- [x] add 상태 취소 - -r 폴더일경우, --cacged 캐쉬 삭제
+
+        git rm -r [/images] --cacged
+
+- [x] remote - 저장소 확인
+
+        git remote -v
+        git remote add [add-name] [url]
+        git remote remove [remove-name]
+        git push [gitlab-name]
+
+- [x] git clone
+
+        git clone [url] [new-project-name]
