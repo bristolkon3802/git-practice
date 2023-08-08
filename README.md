@@ -10,7 +10,17 @@ Add your Github username below.
 
 ## git
 
-- [x] git === pc 변경사항 pull
+- [x] repositories
+
+        git init
+        git remote add origin url
+        git remote remove origin
+
+        git add .
+        git commit -m ""
+        git push origin main
+
+- [x] pull - 원격브런치 에서 현재 브런치로 가져옴
 
         git pull origin main
 
@@ -55,7 +65,7 @@ Add your Github username below.
 
         git reset HEAD^^ --soft
 
-- [x] 새로운 브런치 만들기
+- [x] checkout - 새로운 브런치 만들기
 
         git checkout 363741a636b94a35577fff67a45c8055a5581f42 -b new-branch-name
         git checkout main
@@ -93,3 +103,11 @@ Add your Github username below.
 - [x] git clone
 
         git clone [url] [new-project-name]
+
+- [x] git의 내장 GUI
+
+        gitk
+
+- [x] 콘솔에서 git output을 컬러로 출력
+
+        git config color.ui true
